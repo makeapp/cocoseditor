@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="grizzly-framework-2.3.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/grizzly-framework-2.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/makeapp-frameworks.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../module/6.0/makeapp-frameworks/target/makeapp-frameworks-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

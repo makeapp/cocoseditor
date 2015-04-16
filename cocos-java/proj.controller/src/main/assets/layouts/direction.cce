@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="1280" designHeight="720"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+    <Layer positionX="0.0" positionY="2.0" anchorPointX="0" anchorPointY="0"
+           sizeType="Percent" width="1"
+           height="1">
+        <Button textureNormal="textures/main.plist/asr_close_normal.png"
+                texturePressed="textures/main.plist/asr_close_pressed.png"
+                positionX="59.66667" positionY="661.6667">
+            <EventHandler event="onWidgetClick" action="popScene"></EventHandler>
+        </Button>
+        <Sprite texture="textures/remotecontrol_5way_normal.png" positionX="632.0" positionY="347.0"
+                name="dir"/>
+        <Button textureNormal="textures/main.plist/remote_control_asr_bg_normal.png" positionX="87.666664"
+                texturePressed="textures/main.plist/remote_control_asr_bg_pressed.png"
+                positionY="84.333336">
+            <Sprite texture="textures/main.plist/rc_button_home.png" positionX="61.666664" positionY="66.666664"/>
+        </Button>
+        <Component name="org.cce.controller.ControllerDirection"/>
+    </Layer>
+</Scene>

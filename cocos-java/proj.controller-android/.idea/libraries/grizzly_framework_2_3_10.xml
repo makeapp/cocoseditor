@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="grizzly-framework-2.3.10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../proj.controller/lib/grizzly-framework-2.3.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

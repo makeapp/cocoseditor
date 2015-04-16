@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8426F21919414F6A00630F8D /* JavaStorageClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 84E9B8551918D16B00EDCF1C /* JavaStorageClass.cpp */; };
+		8426F21A19414F6A00630F8D /* JavaEngineJNI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03B6E58CC1EC76FD9AAD6C /* JavaEngineJNI.cpp */; };
+		8488D5D319C4596B0057E4E2 /* libbox2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D5CE19C4596B0057E4E2 /* libbox2d Mac.a */; };
+		8488D5D419C4596C0057E4E2 /* libchipmunk Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D5CF19C4596B0057E4E2 /* libchipmunk Mac.a */; };
+		8488D5D519C4596C0057E4E2 /* libcocos2dx Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D5D019C4596B0057E4E2 /* libcocos2dx Mac.a */; };
+		8488D5D619C4596C0057E4E2 /* libcocos2dx-extensions Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D5D119C4596B0057E4E2 /* libcocos2dx-extensions Mac.a */; };
+		8488D5D719C4596C0057E4E2 /* libCocosDenshion Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8488D5D219C4596B0057E4E2 /* libCocosDenshion Mac.a */; };
+		8491380A1948060900489C5E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922754F1517C094001B78AA /* CoreGraphics.framework */; };
+		8491380F1948060900489C5E /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491380B1948060900489C5E /* Accelerate.framework */; };
+		849138101948060900489C5E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491380C1948060900489C5E /* CFNetwork.framework */; };
+		849138111948060900489C5E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491380D1948060900489C5E /* CoreAudio.framework */; };
+		8491381C19480C9D00489C5E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491381B19480C9D00489C5E /* OpenGL.framework */; };
+		849138201948114400489C5E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491381F1948114400489C5E /* AudioToolbox.framework */; };
+		849138221948119400489C5E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 849138211948119400489C5E /* libz.dylib */; };
+		84913824194811A800489C5E /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84913823194811A800489C5E /* libcurl.dylib */; };
+		84913826194811CD00489C5E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84913825194811CD00489C5E /* libsqlite3.dylib */; };
+		84913828194811FD00489C5E /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84913827194811FD00489C5E /* OpenAL.framework */; };
+		8491382A1948122700489C5E /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849138291948122700489C5E /* IOKit.framework */; };
+		8491382C1948123500489C5E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491382B1948123500489C5E /* QuartzCore.framework */; };
+		8491382E1948123F00489C5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491382D1948123F00489C5E /* Cocoa.framework */; };
+		84F3E1D719178A1D00A83CF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A922754D1517C094001B78AA /* Foundation.framework */; };
+		84F3E2601917B00600A83CF5 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D4545215156E28EF00887EB5 /* AppDelegate.cpp */; };
+		84F3E2621917B00600A83CF5 /* JavaCallFunc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03B333A031377BA64EFAAF /* JavaCallFunc.cpp */; };
+		84F3E2641917B00600A83CF5 /* JavaComController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03BE7C4F01204C339AA395 /* JavaComController.cpp */; };
+		84F3E2661917B00600A83CF5 /* JavaEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03BB80555EA27F2B301DDA /* JavaEngine.cpp */; };
+		84F3E2681917B00600A83CF5 /* JavaPhysicsContactListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03BA1B5347B5F8810C417F /* JavaPhysicsContactListener.cpp */; };
+		84F3E26A1917B00600A83CF5 /* JavaTriggerAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03B613B3AB518C60DDB91F /* JavaTriggerAction.cpp */; };
+		84F3E26C1917B00600A83CF5 /* JavaTriggerCondition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03BE402CEBDE99D2BFCC53 /* JavaTriggerCondition.cpp */; };
+		84F3E26E1917B00600A83CF5 /* JavaWebSocketDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE03BFA6A576B09B56FE043B /* JavaWebSocketDelegate.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84F3E1D419178A1D00A83CF5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A82F5D0169AC71F00C4B13A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		8488D5CE19C4596B0057E4E2 /* libbox2d Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libbox2d Mac.a"; path = "../../build/mac/Debug/libbox2d Mac.a"; sourceTree = "<group>"; };
+		8488D5CF19C4596B0057E4E2 /* libchipmunk Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libchipmunk Mac.a"; path = "../../build/mac/Debug/libchipmunk Mac.a"; sourceTree = "<group>"; };
+		8488D5D019C4596B0057E4E2 /* libcocos2dx Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2dx Mac.a"; path = "../../build/mac/Debug/libcocos2dx Mac.a"; sourceTree = "<group>"; };
+		8488D5D119C4596B0057E4E2 /* libcocos2dx-extensions Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libcocos2dx-extensions Mac.a"; path = "../../build/mac/Debug/libcocos2dx-extensions Mac.a"; sourceTree = "<group>"; };
+		8488D5D219C4596B0057E4E2 /* libCocosDenshion Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCocosDenshion Mac.a"; path = "../../build/mac/Debug/libCocosDenshion Mac.a"; sourceTree = "<group>"; };
+		8491380B1948060900489C5E /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		8491380C1948060900489C5E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8491380D1948060900489C5E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		8491380E1948060900489C5E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		8491381B19480C9D00489C5E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework; sourceTree = DEVELOPER_DIR; };
+		8491381F1948114400489C5E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		849138211948119400489C5E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libz.dylib; sourceTree = DEVELOPER_DIR; };
+		84913823194811A800489C5E /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libcurl.dylib; sourceTree = DEVELOPER_DIR; };
+		84913825194811CD00489C5E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libsqlite3.dylib; sourceTree = DEVELOPER_DIR; };
+		84913827194811FD00489C5E /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenAL.framework; sourceTree = DEVELOPER_DIR; };
+		849138291948122700489C5E /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework; sourceTree = DEVELOPER_DIR; };
+		8491382B1948123500489C5E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		8491382D1948123F00489C5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		84E9B8551918D16B00EDCF1C /* JavaStorageClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaStorageClass.cpp; sourceTree = "<group>"; };
+		84F3E1D619178A1D00A83CF5 /* libcocosjava.dylib */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcocosjava.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F3E1E419178A1D00A83CF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		84F3E25E1917AED200A83CF5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A92275451517C094001B78AA /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		A92275471517C094001B78AA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A92275491517C094001B78AA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A922754D1517C094001B78AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A922754F1517C094001B78AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE03B333A031377BA64EFAAF /* JavaCallFunc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaCallFunc.cpp; sourceTree = "<group>"; };
+		CE03B613B3AB518C60DDB91F /* JavaTriggerAction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaTriggerAction.cpp; sourceTree = "<group>"; };
+		CE03B6E58CC1EC76FD9AAD6C /* JavaEngineJNI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaEngineJNI.cpp; sourceTree = "<group>"; };
+		CE03BA1B5347B5F8810C417F /* JavaPhysicsContactListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaPhysicsContactListener.cpp; sourceTree = "<group>"; };
+		CE03BB80555EA27F2B301DDA /* JavaEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaEngine.cpp; sourceTree = "<group>"; };
+		CE03BE402CEBDE99D2BFCC53 /* JavaTriggerCondition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaTriggerCondition.cpp; sourceTree = "<group>"; };
+		CE03BE7C4F01204C339AA395 /* JavaComController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaComController.cpp; sourceTree = "<group>"; };
+		CE03BFA6A576B09B56FE043B /* JavaWebSocketDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JavaWebSocketDelegate.cpp; sourceTree = "<group>"; };
+		D4545209156E22B400887EB5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D454520B156E22BD00887EB5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		D4545215156E28EF00887EB5 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F3E1D319178A1D00A83CF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8491382E1948123F00489C5E /* Cocoa.framework in Frameworks */,
+				8491382C1948123500489C5E /* QuartzCore.framework in Frameworks */,
+				8491382A1948122700489C5E /* IOKit.framework in Frameworks */,
+				84913828194811FD00489C5E /* OpenAL.framework in Frameworks */,
+				84913826194811CD00489C5E /* libsqlite3.dylib in Frameworks */,
+				8488D5D619C4596C0057E4E2 /* libcocos2dx-extensions Mac.a in Frameworks */,
+				84913824194811A800489C5E /* libcurl.dylib in Frameworks */,
+				849138221948119400489C5E /* libz.dylib in Frameworks */,
+				8488D5D419C4596C0057E4E2 /* libchipmunk Mac.a in Frameworks */,
+				849138201948114400489C5E /* AudioToolbox.framework in Frameworks */,
+				8491381C19480C9D00489C5E /* OpenGL.framework in Frameworks */,
+				8488D5D519C4596C0057E4E2 /* libcocos2dx Mac.a in Frameworks */,
+				8491380F1948060900489C5E /* Accelerate.framework in Frameworks */,
+				849138101948060900489C5E /* CFNetwork.framework in Frameworks */,
+				8488D5D719C4596C0057E4E2 /* libCocosDenshion Mac.a in Frameworks */,
+				849138111948060900489C5E /* CoreAudio.framework in Frameworks */,
+				8488D5D319C4596B0057E4E2 /* libbox2d Mac.a in Frameworks */,
+				8491380A1948060900489C5E /* CoreGraphics.framework in Frameworks */,
+				84F3E1D719178A1D00A83CF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15628F5B15F0F5C2000CF24B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8488D5C319C4586E0057E4E2 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				8488D5CE19C4596B0057E4E2 /* libbox2d Mac.a */,
+				8488D5CF19C4596B0057E4E2 /* libchipmunk Mac.a */,
+				8488D5D019C4596B0057E4E2 /* libcocos2dx Mac.a */,
+				8488D5D119C4596B0057E4E2 /* libcocos2dx-extensions Mac.a */,
+				8488D5D219C4596B0057E4E2 /* libCocosDenshion Mac.a */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		A92275321517C094001B78AA = {
+			isa = PBXGroup;
+			children = (
+				8488D5C319C4586E0057E4E2 /* libs */,
+				D4545214156E28EF00887EB5 /* Classes */,
+				A92275401517C094001B78AA /* Frameworks */,
+				A922753E1517C094001B78AA /* Products */,
+				15628F5B15F0F5C2000CF24B /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		A922753E1517C094001B78AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F3E1D619178A1D00A83CF5 /* libcocosjava.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92275401517C094001B78AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8491382D1948123F00489C5E /* Cocoa.framework */,
+				8491382B1948123500489C5E /* QuartzCore.framework */,
+				849138291948122700489C5E /* IOKit.framework */,
+				84913827194811FD00489C5E /* OpenAL.framework */,
+				84913825194811CD00489C5E /* libsqlite3.dylib */,
+				84913823194811A800489C5E /* libcurl.dylib */,
+				849138211948119400489C5E /* libz.dylib */,
+				8491381F1948114400489C5E /* AudioToolbox.framework */,
+				8491381B19480C9D00489C5E /* OpenGL.framework */,
+				8491380B1948060900489C5E /* Accelerate.framework */,
+				8491380C1948060900489C5E /* CFNetwork.framework */,
+				8491380D1948060900489C5E /* CoreAudio.framework */,
+				8491380E1948060900489C5E /* GLKit.framework */,
+				84F3E25E1917AED200A83CF5 /* CoreMotion.framework */,
+				1A82F5D0169AC71F00C4B13A /* libsqlite3.dylib */,
+				D454520B156E22BD00887EB5 /* libz.dylib */,
+				D4545209156E22B400887EB5 /* libxml2.dylib */,
+				A92275411517C094001B78AA /* QuartzCore.framework */,
+				A92275451517C094001B78AA /* OpenAL.framework */,
+				A92275471517C094001B78AA /* AudioToolbox.framework */,
+				A92275491517C094001B78AA /* AVFoundation.framework */,
+				A922754D1517C094001B78AA /* Foundation.framework */,
+				A922754F1517C094001B78AA /* CoreGraphics.framework */,
+				84F3E1E419178A1D00A83CF5 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4545214156E28EF00887EB5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84E9B8551918D16B00EDCF1C /* JavaStorageClass.cpp */,
+				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
+				CE03B333A031377BA64EFAAF /* JavaCallFunc.cpp */,
+				CE03BE7C4F01204C339AA395 /* JavaComController.cpp */,
+				CE03BB80555EA27F2B301DDA /* JavaEngine.cpp */,
+				CE03BA1B5347B5F8810C417F /* JavaPhysicsContactListener.cpp */,
+				CE03B613B3AB518C60DDB91F /* JavaTriggerAction.cpp */,
+				CE03BE402CEBDE99D2BFCC53 /* JavaTriggerCondition.cpp */,
+				CE03BFA6A576B09B56FE043B /* JavaWebSocketDelegate.cpp */,
+				CE03B6E58CC1EC76FD9AAD6C /* JavaEngineJNI.cpp */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F3E1D519178A1D00A83CF5 /* cocosjava */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F3E20319178A1D00A83CF5 /* Build configuration list for PBXNativeTarget "cocosjava" */;
+			buildPhases = (
+				84F3E1D219178A1D00A83CF5 /* Sources */,
+				84F3E1D319178A1D00A83CF5 /* Frameworks */,
+				84F3E1D419178A1D00A83CF5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cocosjava;
+			productName = cocosjava;
+			productReference = 84F3E1D619178A1D00A83CF5 /* libcocosjava.dylib */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92275341517C094001B78AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A92275371517C094001B78AA /* Build configuration list for PBXProject "cocosjava" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A92275321517C094001B78AA;
+			productRefGroup = A922753E1517C094001B78AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F3E1D519178A1D00A83CF5 /* cocosjava */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F3E1D219178A1D00A83CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8426F21919414F6A00630F8D /* JavaStorageClass.cpp in Sources */,
+				8426F21A19414F6A00630F8D /* JavaEngineJNI.cpp in Sources */,
+				84F3E2601917B00600A83CF5 /* AppDelegate.cpp in Sources */,
+				84F3E2621917B00600A83CF5 /* JavaCallFunc.cpp in Sources */,
+				84F3E2641917B00600A83CF5 /* JavaComController.cpp in Sources */,
+				84F3E2661917B00600A83CF5 /* JavaEngine.cpp in Sources */,
+				84F3E2681917B00600A83CF5 /* JavaPhysicsContactListener.cpp in Sources */,
+				84F3E26A1917B00600A83CF5 /* JavaTriggerAction.cpp in Sources */,
+				84F3E26C1917B00600A83CF5 /* JavaTriggerCondition.cpp in Sources */,
+				84F3E26E1917B00600A83CF5 /* JavaWebSocketDelegate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84F3E1F319178A1D00A83CF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/cocosjava.dst;
+				EXECUTABLE_EXTENSION = dylib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocosjava/cocosjava-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					COCOS2D_JAVASCRIPT,
+					DEBUG,
+					"COCOS2D_DEBUG=1",
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../..\"",
+					"\"$(SRCROOT)/../../cocos\"",
+					"\"$(SRCROOT)/../../cocos/base\"",
+					"\"$(SRCROOT)/../../cocos/physics\"",
+					"\"$(SRCROOT)/../../cocos/math\"",
+					"\"$(SRCROOT)/../../cocos/platform/\"",
+					"\"$(SRCROOT)/../../cocos/platform/desktop\"",
+					"\"$(SRCROOT)/../../cocos/platform/mac\"",
+					"\"$(SRCROOT)/../../cocos/2d\"",
+					"\"$(SRCROOT)/../../cocos/3d\"",
+					"\"$(SRCROOT)/../../cocos/deprecated\"",
+					"\"$(SRCROOT)/../../cocos/renderer\"",
+					"\"$(SRCROOT)/../../cocos/ui\"",
+					"\"$(SRCROOT)/../../cocos/storage\"",
+					"\"$(SRCROOT)/../../cocos/network\"",
+					"\"$(SRCROOT)/../../cocos/audio/include\"",
+					"\"$(SRCROOT)/../../cocos/editor-support\"",
+					"\"$(SRCROOT)/../../cocos/editor-support/cocoseditor\"",
+					"\"$(SRCROOT)/../../extensions\"",
+					"\"$(SRCROOT)/../../external\"",
+					"\"$(SRCROOT)/../../external/glfw3/include/mac\"",
+					"\"$(SRCROOT)/../../external/tinyxml2\"",
+					"\"$(SRCROOT)/../../external/chipmunk/include/chipmunk\"",
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/darwin,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/yuanyou/Desktop/cocos2d-x-3.2-cdk/build/mac/Debug",
+				);
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = YES;
+				ORDER_FILE = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84F3E1F419178A1D00A83CF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/cocosjava.dst;
+				ENABLE_NS_ASSERTIONS = NO;
+				EXECUTABLE_EXTENSION = dylib;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cocosjava/cocosjava-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					COCOS2D_JAVASCRIPT,
+					DEBUG,
+					"COCOS2D_DEBUG=1",
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../..\"",
+					"\"$(SRCROOT)/../../cocos\"",
+					"\"$(SRCROOT)/../../cocos/base\"",
+					"\"$(SRCROOT)/../../cocos/physics\"",
+					"\"$(SRCROOT)/../../cocos/math\"",
+					"\"$(SRCROOT)/../../cocos/platform/\"",
+					"\"$(SRCROOT)/../../cocos/platform/desktop\"",
+					"\"$(SRCROOT)/../../cocos/platform/mac\"",
+					"\"$(SRCROOT)/../../cocos/2d\"",
+					"\"$(SRCROOT)/../../cocos/3d\"",
+					"\"$(SRCROOT)/../../cocos/deprecated\"",
+					"\"$(SRCROOT)/../../cocos/renderer\"",
+					"\"$(SRCROOT)/../../cocos/ui\"",
+					"\"$(SRCROOT)/../../cocos/storage\"",
+					"\"$(SRCROOT)/../../cocos/network\"",
+					"\"$(SRCROOT)/../../cocos/audio/include\"",
+					"\"$(SRCROOT)/../../cocos/editor-support\"",
+					"\"$(SRCROOT)/../../cocos/editor-support/cocoseditor\"",
+					"\"$(SRCROOT)/../../extensions\"",
+					"\"$(SRCROOT)/../../external\"",
+					"\"$(SRCROOT)/../../external/glfw3/include/mac\"",
+					"\"$(SRCROOT)/../../external/tinyxml2\"",
+					"\"$(SRCROOT)/../../external/chipmunk/include/chipmunk\"",
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include,
+					/Library/Java/JavaVirtualMachines/jdk1.7.0_45.jdk/Contents/Home/include/darwin,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/yuanyou/Desktop/cocos2d-x-3.2-cdk/build/mac/Debug",
+				);
+				MACH_O_TYPE = mh_dylib;
+				ORDER_FILE = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92276FE1517C097001B78AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A92276FF1517C097001B78AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F3E20319178A1D00A83CF5 /* Build configuration list for PBXNativeTarget "cocosjava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F3E1F319178A1D00A83CF5 /* Debug */,
+				84F3E1F419178A1D00A83CF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92275371517C094001B78AA /* Build configuration list for PBXProject "cocosjava" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92276FE1517C097001B78AA /* Debug */,
+				A92276FF1517C097001B78AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92275341517C094001B78AA /* Project object */;
+}

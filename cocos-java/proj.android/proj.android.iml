@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration />
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 14 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="TEST" name="Maven: junit:junit:4.1" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: com.google.android:android-framework:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: org.ccj:cocosjava:3.2" level="project" />
+    <orderEntry type="library" name="Maven: org.ccj:makeapp-function:1.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: com.makeapp.android.extras:android-extras:1.0">
+        <CLASSES>
+          <root url="jar://D:/develop/JetBrains/IdeaIC/CocosEditor2-Dev/cdk/platform/android/lib/android-extras-1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

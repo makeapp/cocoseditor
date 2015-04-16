@@ -1,0 +1,95 @@
+<Document height="" width="" Version="">
+
+  <Node canedit="true" tag="10000" visible="1" rotation="0" scalex="1" scaley="1" x="0" y="0" zorder="1">
+    <Scene name="TriggerTest">
+
+    </Scene>
+    <BackgroundAudio name="CCBackgroundAudio" loop="0"/>
+
+    <Node canedit="true" tag="10003" rotation="0" scalex="1" scaley="1" visible="1" x="240.5" y="160" zorder="1">
+      <Sprite src="Images/startMenuBG.png"/>
+    </Node>
+
+    <Node name="blowFish" canedit="true" tag="10007" rotation="0" scalex="0.3" scaley="0.3" visible="1"
+          x="410.5" y="169" zorder="1">
+      <Armature name="CCArmature" isShowColliderRect="true" selectedactionname="Action0" src="fishes/blowFish/Blowfish.ExportJson"/>
+    </Node>
+
+    <Node name="Butterflyfish" canedit="true" tag="10008" rotation="0" scalex="0.3" scaley="0.3" visible="1"
+          x="412.5" y="84" zorder="1">
+      <Armature name="CCArmature" isShowColliderRect="true" selectedactionname="Action0" src="fishes/Butterflyfish/Butterflyfish.ExportJson"/>
+    </Node>
+
+    <Trigger id="0">
+      <Conditions>
+
+      </Conditions>
+      <Actions>
+        <Action name="TScaleTo">
+          <ActionParam name="Tag" value="10008"/>
+          <ActionParam name="ScaleX" value="0.6"/>
+          <ActionParam name="ScaleY" value="0.6"/>
+          <ActionParam name="Duration" value="2"/>
+        </Action>
+        <Action name="TMoveBy">
+          <ActionParam name="Tag" value="10008"/>
+          <ActionParam name="x" value="-500"/>
+          <ActionParam name="y" value="0"/>
+          <ActionParam name="Duration" value="10"/>
+        </Action>
+      </Actions>
+      <Events>
+        <Event id="4"/>
+      </Events>
+    </Trigger>
+    <Trigger id="1">
+      <Conditions>
+      </Conditions>
+      <Actions>
+        <Action name="TMoveBy">
+          <ActionParam name="Tag" value="10007"/>
+          <ActionParam name="x" value="-500"/>
+          <ActionParam name="y" value="0"/>
+          <ActionParam name="Duration" value="10"/>
+        </Action>
+      </Actions>
+      <Events>
+        <Event id="0"/>
+      </Events>
+    </Trigger>
+
+    <Trigger id="2">
+      <Conditions>
+        <Condition name="NodeInRect">
+          <ConditionParam name="Tag" value="10007"/>
+          <ConditionParam name="originX" value="112"/>
+          <ConditionParam name="originY" value="153"/>
+          <ConditionParam name="sizeWidth" value="10"/>
+          <ConditionParam name="sizeHeight" value="320"/>
+        </Condition>
+      </Conditions>
+      <Actions>
+        <Action name="TScaleTo">
+          <ActionParam name="Tag" value="10007"/>
+          <ActionParam name="ScaleX" value="-0.3"/>
+          <ActionParam name="ScaleY" value="0.3"/>
+          <ActionParam name="Duration" value="1"/>
+        </Action>
+        <Action name="TMoveBy">
+          <ActionParam name="Tag" value="10007"/>
+          <ActionParam name="x" value="1000"/>
+          <ActionParam name="y" value="0"/>
+          <ActionParam name="Duration" value="10"/>
+        </Action>
+        <Action name="TriggerState">
+          <ActionParam name="ID" value="2"/>
+          <ActionParam name="State" value="0"/>
+        </Action>
+      </Actions>
+      <Events>
+        <Event id="3"/>
+      </Events>
+    </Trigger>
+  </Node>
+
+</Document>

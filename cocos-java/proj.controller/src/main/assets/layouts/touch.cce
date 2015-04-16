@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="1280" designHeight="720"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+    <Layer positionX="0.0" positionY="2.0" anchorPointX="0" anchorPointY="0"
+           sizeType="Percent" width="1"
+           height="1">
+        <Button textureNormal="textures/main.plist/asr_close_normal.png"
+                texturePressed="textures/main.plist/asr_close_pressed.png"
+                positionX="65.0" positionY="659.5">
+            <EventHandler event="onWidgetClick" action="popScene"></EventHandler>
+        </Button>
+        <Sprite texture="textures/main.plist/rc_touch_arrow_down.png" positionX="670.0" positionY="214.5" name="down"
+                visible="false"/>
+        <Sprite texture="textures/main.plist/rc_touch_arrow_left.png" positionX="519.5" positionY="347.0" name="left"
+                visible="false"/>
+        <Sprite texture="textures/main.plist/rc_touch_arrow_right.png" positionX="812.0" positionY="357.0"
+                name="right" visible="false"/>
+        <Sprite texture="textures/main.plist/rc_touch_arrow_up.png" positionX="667.5" positionY="494.5" name="up"
+                visible="false"/>
+        <Button textureNormal="textures/main.plist/rc_touch_back_bg.png" positionX="686.0" positionY="62.0">
+            <Sprite texture="textures/main.plist/rc_button_back.png" positionX="177.0" positionY="57.0"/>
+        </Button>
+        <Sprite texture="textures/main.plist/rc_remotecontrol_cursor.png" positionX="524.5" positionY="405.0"
+                name="touch" visible="false"/>
+        <Component name="org.cce.controller.ControllerTouch"/>
+    </Layer>
+</Scene>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="makeapp-javase-5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../proj.controller/lib/makeapp-javase-5.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

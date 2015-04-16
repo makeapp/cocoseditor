@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="makeapp-javase-5.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/makeapp-javase-5.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../module/5.0-git/makeapp-javase/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../module/5.0-git/makeapp-javase/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,102 @@
+<Document>
+  <Armatures>
+    <Armature name="Blowfish">
+      <Bone name="Layer122" parent="" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="159.24824523925781" arrow_y="-5.4955482482910156E-05" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/6.png" displayType="0">
+          <SkinData x="153.758179" y="-136.24736" cX="1.0" cY="1.0" kX="1.77311766" kY="-1.77311766"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer120" parent="Layer122" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/1.png" displayType="0">
+          <SkinData x="130.042145" y="0.5020694" cX="1.0" cY="1.0" kX="-1.07267725" kY="1.07267725"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer136" parent="Layer132" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+        <Bone name="Layer132" parent="Layer128" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+          <DisplayData name="testAnimationResource/hat.png" displayType="0">
+            <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+          </DisplayData>
+        </Bone>
+        <Bone name="Layer134" parent="Layer132" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+          <DisplayData name="testAnimationResource/hat.png" displayType="0">
+            <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+          </DisplayData>
+        </Bone>
+      </Bone>
+      <Bone name="Layer128" parent="Layer122" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer130" parent="Layer122" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+
+      <Bone name="Layer124" parent="Layer122" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer126" parent="Layer124" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer142" parent="" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer142_clone1" parent="" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+      <Bone name="Layer142_clone1_clone2" parent="" x="0.0" y="0.0" z="8" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="129.24824523925781" arrow_y="0" effectbyskeleton="true">
+        <DisplayData name="testAnimationResource/hat.png" displayType="0">
+          <SkinData x="190.6831" y="15.7477789" cX="0.99999994" cY="1.0" kX="2.07826424" kY="-2.07826424"/>
+        </DisplayData>
+      </Bone>
+    </Armature>
+  </Armatures>
+  <Animations>
+    <Animation name="Cowboy">
+      <Movement name="Walk" dr="46" lp="true" to="0" drTW="0" twE="0">
+        <MovementBone name="Layer120" dl="0.0" sc="1.0">
+          <Frame dr="0" dI="0" x="93.74072" y="-160.102158" z="0" cX="0.99999994" cY="1.0" kX="3.11565661" kY="-3.11565661" fi="0" twE="0"/>
+          <Frame dr="0" dI="0" x="93.74072" y="-160.0" z="0" cX="0.99999994" cY="1.0" kX="3.08057213" kY="-3.08057213" fi="21" twE="0"/>
+          <Frame dr="0" dI="0" x="93.74072" y="-160.0" z="0" cX="0.99999994" cY="1.0" kX="2.58229041" kY="-2.58229041" fi="31" twE="0"/>
+          <Frame dr="0" dI="0" x="93.74072" y="-160.102158" z="0" cX="0.99999994" cY="1.0" kX="3.11565661" kY="-3.11565661" fi="40" twE="0"/>
+          <Frame dr="0" dI="0" x="93.74072" y="-160.102158" z="0" cX="0.99999994" cY="1.0" kX="3.11565661" kY="-3.11565661" fi="41" twE="0"/>
+        </MovementBone>
+      </Movement>
+    </Animation>
+  </Animations>
+  <Textures>
+    <Texture name="testAnimationResource/1" width="201" height="320" px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/2" width="186" height="252" px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/3" width="247" height="479" px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/4" width="141" height="110" px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/5" width="190" height="236" px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/6" width="474" height="402" px="0.5" py="0.5">
+      <ContourData>
+        <Vertex x="-237" y="-200.76"/>
+        <Vertex x="-237" y="199"/>
+        <Vertex x="237" y="199"/>
+        <Vertex x="237" y="-200"/>
+      </ContourData>
+    </Texture>
+    <Texture name="testAnimationResource/7" width="146" height="112." px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/8" width="135" height="180" px="0.5" py="0.5"/>
+    <Texture name="testAnimationResource/hat" width="452" height="458" px="0.5" py="0.5"/>
+    <Texture name="25" width="20" height="23" px="0.5" py="0.5"/>
+  </Textures>
+  <TextureFiles>
+    <TextureFile path="Cowboy0.plist"/>
+  </TextureFiles>
+</Document>

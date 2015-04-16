@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="1280" designHeight="720"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+    <Layer positionX="0.0" positionY="2.0" anchorPointX="0" anchorPointY="0"
+           sizeType="Percent" width="1"
+           height="1">
+        <Sprite texture="textures/joystick_direction_normal.png" positionX="275.0" positionY="309.0" name="dir"/>
+        <Button textureNormal="textures/main.plist/asr_close_normal.png"
+                texturePressed="textures/main.plist/asr_close_pressed.png"
+                positionX="58.333332" positionY="663.6667">
+            <EventHandler event="onWidgetClick" action="popScene"></EventHandler>
+        </Button>
+        <Button textureNormal="textures/main.plist/joystick_lr_bg.png"
+                texturePressed="textures/main.plist/joystick_lr_bg_pressed.png"
+                positionX="532.6667" positionY="599.3333" name="LKey">
+            <Sprite texture="textures/main.plist/joystick_l.png" positionX="65.33333" positionY="60.666664"/>
+        </Button>
+
+        <Button textureNormal="textures/main.plist/joystick_lr_bg.png"
+                texturePressed="textures/main.plist/joystick_lr_bg_pressed.png"
+                positionX="627.0" positionY="452.33334" name="SensorKey">
+            <Sprite texture="textures/main.plist/rc_icon_sensor_disable.png" positionX="65.0" positionY="65.0"
+                    name="sensorIcon"/>
+        </Button>
+
+        <Button textureNormal="textures/main.plist/joystick_lr_bg.png"
+                texturePressed="textures/main.plist/joystick_lr_bg_pressed.png"
+                positionX="697.3333" positionY="597.3333" name="RKey">
+            <Sprite texture="textures/main.plist/joystick_r.png" positionX="65.0" positionY="68.333336"/>
+        </Button>
+        <Button textureNormal="textures/main.plist/joystick_select_normal.png" positionX="598.0" positionY="163.0"
+                name="SelectKey"/>
+        <Button textureNormal="textures/main.plist/joystick_start_pressed.png" positionX="753.0" positionY="153.0"
+                anchorPointX="0.54310346" anchorPointY="0.43333334" name="StartKeY"/>
+        <Component name="org.cce.controller.ControllerJoystick"/>
+        <Button textureNormal="textures/main.plist/joystick_xyab_normal.png"
+                texturePressed="textures/main.plist/joystick_xyab_pressed.png"
+                positionX="943.5"
+                positionY="439.0" name="XKey">
+            <Sprite texture="textures/main.plist/mouse_x.png" positionX="82.5" positionY="80.0"/>
+        </Button>
+        <Button textureNormal="textures/main.plist/joystick_xyab_normal.png" positionX="1152.5"
+                texturePressed="textures/main.plist/joystick_xyab_pressed.png"
+                positionY="251.0" name="BKey">
+            <Sprite texture="textures/main.plist/mouse_b.png" positionX="58.0" positionY="83.0"/>
+        </Button>
+
+        <Button textureNormal="textures/main.plist/joystick_xyab_normal.png" positionX="949.0"
+                texturePressed="textures/main.plist/joystick_xyab_pressed.png"
+                positionY="236.5" name="AKey">
+            <Sprite texture="textures/main.plist/mouse_a.png" positionX="99.5" positionY="87.0"/>
+        </Button>
+        <Button textureNormal="textures/main.plist/joystick_xyab_normal.png" positionX="1145.0"
+                texturePressed="textures/main.plist/joystick_xyab_pressed.png"
+                positionY="444.0" visible="true" name="YKey">
+            <Sprite texture="textures/main.plist/mouse_y.png" positionX="85.0" positionY="82.5"/>
+        </Button>
+    </Layer>
+</Scene>

@@ -1,0 +1,40 @@
+<Document height="" width="" Version="">
+
+  <Node canedit="true" tag="10000" visible="1" rotation="0" scalex="1" scaley="1" x="0" y="0" zorder="1">
+    <Scene name="ParticleComponentTest">
+
+    </Scene>
+    <BackgroundAudio name="CCBackgroundAudio" loop="0"/>
+
+    <Node canedit="true" tag="10020" rotation="0" scalex="1" scaley="1" visible="1" x="406.5" y="167" zorder="1">
+      <ParticleSystemQuad src="Upsidedown.plist"/>
+    </Node>
+
+    <Node canedit="true" tag="10023" rotation="0" scalex="1" scaley="1" visible="1" x="236.5" y="166.49996948242188" zorder="1">
+      <ParticleSystemQuad src="SmallSun.plist"/>
+    </Node>
+
+    <!--<Trigger id="0">
+      <Conditions>
+        <Condition name="NodeInRect">
+          <ConditionParam name="Tag" value="10007"/>
+          <ConditionParam name="originX" value="10007"/>
+          <ConditionParam name="originY" value="10007"/>
+          <ConditionParam name="sizeWidth" value="10007"/>
+          <ConditionParam name="sizeHeight" value="10007"/>
+        </Condition>
+      </Conditions>
+      <Actions>
+        <Action name="TScaleTo">
+          <ActionParam name="Tag" value="7000"/>
+          <ActionParam name="ScaleX" value="1"/>
+          <ActionParam name="ScaleY" value="1"/>
+        </Action>
+      </Actions>
+      <Events>
+        <Event id="1"/>
+      </Events>
+    </Trigger>-->
+  </Node>
+
+</Document>

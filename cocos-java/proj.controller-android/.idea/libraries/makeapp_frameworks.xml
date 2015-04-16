@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="makeapp-frameworks">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../proj.controller/lib/makeapp-frameworks.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

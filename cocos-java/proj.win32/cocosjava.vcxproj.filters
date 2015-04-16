@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{ab6c4655-0021-4ac6-9499-9c67674e8639}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{11d15c6a-fa76-484c-ac5b-0ad16e532e22}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="source\cocostudio">
+      <UniqueIdentifier>{e53a6bd5-e47d-40bc-a3ed-9930b4d13c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\cocoseditor">
+      <UniqueIdentifier>{19405c7a-98c4-4303-a898-7adec8aa72b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LocalStorageClass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaCallFunc.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaEngine.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaPhysicsContactListener.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaStorageClass.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaWebSocketDelegate.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaLayerLoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocostudio\JavaComController.h">
+      <Filter>source\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocostudio\JavaTriggerAction.h">
+      <Filter>source\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\cocostudio\JavaTriggerCondition.h">
+      <Filter>source\cocostudio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaEventListener.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaEventListenerTouchAllAtOnce.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\JavaEventListenerTouchOneByOne.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEAnimation.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEAnimationManager.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEChannel.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEController.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEEventHandler.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEInputDelegate.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEKeyFrame.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\CCEReader.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Classes\FunctionFactory.h">
+      <Filter>source\cocoseditor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaCallFunc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaEngine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaEngineJNI.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaPhysicsContactListener.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaStorageClass.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaWebSocketDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocostudio\JavaComController.cpp">
+      <Filter>source\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocostudio\JavaTriggerAction.cpp">
+      <Filter>source\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\cocostudio\JavaTriggerCondition.cpp">
+      <Filter>source\cocostudio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaEventListener.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaEventListenerTouchAllAtOnce.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\JavaEventListenerTouchOneByOne.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEAnimation.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEAnimationManager.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEChannel.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEController.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEEventHandler.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEInputDelegate.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEKeyFrame.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\CCEReader.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Classes\FunctionFactory.cpp">
+      <Filter>source\cocoseditor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

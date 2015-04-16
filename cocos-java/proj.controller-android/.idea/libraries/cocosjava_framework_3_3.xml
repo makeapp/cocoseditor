@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cocosjava-framework-3.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../proj.controller/lib/cocosjava-framework-3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

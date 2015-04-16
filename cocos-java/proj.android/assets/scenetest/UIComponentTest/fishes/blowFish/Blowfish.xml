@@ -1,0 +1,51 @@
+<Document>
+  <Armatures>
+    <Armature name="Blowfish">
+      <Bone name="Layer102" parent="" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0" arrow_x="0.0" arrow_y="0.0" effectbyskeleton="false">
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_001.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_002.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_003.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_004.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_005.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_006.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_007.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_008.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_009.png" displayType="0"/>
+        <DisplayData name="Fish08/normal/actor_fish_hetun02_normal_010.png" displayType="0"/>
+      </Bone>
+    </Armature>
+  </Armatures>
+  <Animations>
+    <Animation name="Blowfish">
+      <Movement name="Action0" dr="46" lp="true" to="0" drTW="0" twE="0">
+        <MovementBone name="Layer102" dl="0.0" sc="1.0">
+          <Frame twE="0" dr="5" dI="0" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="1" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="2" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="3" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="4" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="5" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="6" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="7" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="8" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+          <Frame twE="0" dr="5" dI="9" x="0.0" y="0.0" z="1" cX="1.0" cY="1.0" kX="0.0" kY="0.0"/>
+        </MovementBone>
+      </Movement>
+    </Animation>
+  </Animations>
+  <Textures>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_001" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_002" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_003" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_004" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_005" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_006" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_007" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_008" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_009" width="0" height="0" px="0.5" py="0.5"/>
+    <Texture name="Fish08/normal/actor_fish_hetun02_normal_010" width="0" height="0" px="0.5" py="0.5"/>
+  </Textures>
+  <TextureFiles>
+    <TextureFile path="Blowfish0.plist"/>
+  </TextureFiles>
+</Document>

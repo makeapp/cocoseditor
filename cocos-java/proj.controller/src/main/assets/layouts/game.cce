@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="1280" designHeight="720"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+    <Layer positionX="0.0" positionY="2.0" anchorPointX="0" anchorPointY="0"
+           sizeType="Percent" width="1"
+           height="1">
+
+        <Sprite texture="textures/main.plist/rc_remotecontrol_cursor.png" positionX="524.5" positionY="405.0"
+                name="touch" visible="true"/>
+        <Component name="org.cce.controller.ControllerGame"/>
+    </Layer>
+</Scene>

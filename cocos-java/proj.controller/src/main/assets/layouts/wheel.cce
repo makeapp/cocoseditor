@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="1280" designHeight="720"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+    <Layer positionX="0.0" positionY="2.0" anchorPointX="0" anchorPointY="0"
+           sizeType="Percent" width="1"
+           height="1">
+        <Button textureNormal="textures/main.plist/asr_close_normal.png"
+                texturePressed="textures/main.plist/asr_close_pressed.png"
+                positionX="60.0" positionY="664.0">
+            <EventHandler event="onWidgetClick" action="popScene"></EventHandler>
+        </Button>
+        <Sprite texture="textures/steer_wheel.png" positionX="641.0" positionY="218.5" name="wheel" anchorPointX="0.49999997"
+                anchorPointY="0.47747746">
+        </Sprite>
+        <Button textureNormal="textures/main.plist/mouse_a_bg_normal.png" positionX="156.5" positionY="485.0"
+                name="AKey">
+            <Sprite texture="textures/main.plist/mouse_a.png" positionX="144.5" positionY="92.0"/>
+        </Button>
+        <Button textureNormal="textures/main.plist/mouse_b_bg_normal.png" positionX="1117.0" positionY="465.5"
+                name="BKey">
+            <Sprite texture="textures/main.plist/mouse_b.png" positionX="140.0" positionY="92.0"/>
+        </Button>
+        <Button textureNormal="textures/main.plist/mouse_xy_bg_normal.png" positionX="116.0" positionY="92.5">
+            <Sprite texture="textures/main.plist/mouse_x_pressed.png" positionX="87.5" positionY="72.5" name="XKey"/>
+        </Button>
+        <Button textureNormal="textures/main.plist/mouse_xy_bg_normal.png" positionX="1170.5" positionY="83.0"
+                name="YKey">
+            <Sprite texture="textures/main.plist/mouse_y_pressed.png" positionX="97.5" positionY="72.5"/>
+        </Button>
+        <Component name="org.cce.controller.ControllerWheel"/>
+    </Layer>
+</Scene>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="1280" designHeight="720"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+    <Layer anchorPointX="0" anchorPointY="0" sizeType="Percent" width="1" height="1">
+
+        <Button textureNormal="textures/main.plist/button_entry_down.png" positionX="264.5" positionY="459.0">
+            <Sprite texture="textures/main.plist/rc_icon_keypad.png" positionX="0" positionY="0"
+                    positionType="Center"/>
+            <EventHandler event="onWidgetClick" action="pushScene" target="layouts/direction.cce"></EventHandler>
+        </Button>
+        <Button textureNormal="textures/main.plist/button_entry_down.png" positionX="644.0" positionY="461.0">
+            <Sprite texture="textures/main.plist/rc_icon_touch.png" positionX="0" positionY="0"
+                    positionType="Center"/>
+            <EventHandler event="onWidgetClick" action="pushScene" target="layouts/touch.cce"></EventHandler>
+
+        </Button>
+        <Button textureNormal="textures/main.plist/button_entry_down.png" positionX="1026.5" positionY="467.5">
+            <Sprite texture="textures/main.plist/rc_icon_wheel.png" positionX="0" positionY="0"
+                    positionType="Center"/>
+            <EventHandler event="onWidgetClick" action="pushScene" target="layouts/wheel.cce"></EventHandler>
+
+        </Button>
+        <Button textureNormal="textures/main.plist/button_entry_down.png" positionX="266.0" positionY="157.0">
+            <Sprite texture="textures/main.plist/rc_icon_handle.png" positionX="0" positionY="0"
+                    positionUnit="Pixels" positionType="Center"/>
+            <EventHandler event="onWidgetClick" action="pushScene" target="layouts/joystick.cce"></EventHandler>
+
+        </Button>
+    </Layer>
+</Scene>

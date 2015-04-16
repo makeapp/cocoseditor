@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>-Xbootclasspath/a:D:\develop\JetBrains\IdeaIC\CocosEditor2.0.8\cdk\lib\classpath-1.1.jar -cp D:\develop\JetBrains\IdeaIC\CocosEditor2.0.8\cdk\lib\cocosjava-3.2.jar;D:\work\source\makeapp\game\shipgold-src\shipgold\target\classes com.makeapp.game.shipgold.Main</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>D:\work\source\makeapp\game\shipgold-src\shipgold\target\assets</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

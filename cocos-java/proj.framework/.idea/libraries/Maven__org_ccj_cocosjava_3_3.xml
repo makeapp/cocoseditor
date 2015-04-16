@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.ccj:cocosjava:3.3">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ccj/cocosjava/3.3/cocosjava-3.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ccj/cocosjava/3.3/cocosjava-3.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/ccj/cocosjava/3.3/cocosjava-3.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
