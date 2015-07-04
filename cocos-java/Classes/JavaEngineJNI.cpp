@@ -875,7 +875,9 @@ JNIEXPORT jint JNICALL JNI_OnLoad(JavaVM* vm, void* reserved) {
         JavaCPP_log("Could not get JNIEnv for JNI_VERSION_1_4 inside JNI_OnLoad().");
         return JNI_ERR;
     }
+    #if CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID
     JniHelper::setJavaVM(vm);
+    #endif
     if (JavaCPP_vm == vm) {
         return env->GetVersion();
     }
@@ -31802,7 +31804,7 @@ JNIEXPORT void JNICALL Java_org_ccj_event_Event_setSourceId(JNIEnv* env, jobject
     StringAdapter adapter0(ptr0, size0);
     jthrowable exc = NULL;
     try {
-        ptr->setSourceId((std::string&)adapter0);
+    //    ptr->setSourceId((std::string&)adapter0);
     } catch (...) {
         exc = JavaCPP_handleException(env, 4);
     }
@@ -31883,7 +31885,7 @@ JNIEXPORT jobject JNICALL Java_org_ccj_event_EventAcceleration_getAcceleration(J
     cocos2d::Acceleration* rptr;
     jthrowable exc = NULL;
     try {
-        rptr = ptr->getAcceleration();
+     //   rptr = ptr->getAcceleration();
         if (rptr != NULL) {
             rarg = JavaCPP_createPointer(env, 212);
             env->SetLongField(rarg, JavaCPP_addressFID, ptr_to_jlong(rptr));
