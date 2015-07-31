@@ -55,20 +55,13 @@ void setSourceId(std::string  id){
 #### javaactivity-android.cpp
  全部注释掉这个方法
   JNIEXPORT jint JNI_OnLoad(JavaVM *vm, void *reserved)
-{
-    JniHelper::setJavaVM(vm);
-
-    cocos_android_app_init(JniHelper::getEnv());
-
-    return JNI_VERSION_1_4;
-}
   
   
 #### cd cocos2d-x-3.7 git clone https://github.com/makeapp/cocoseditor.git
 
-####编译cocosjava.dll
+####编译Windows下的cocosjava.dll
  用VS打开cocos2d-x-3.7\build\cocos2d-win32.sln项目，把 cocoseditor\cocos-java\proj.win32\cocosjava.vcxproj 加到 VS项目中
 把cocosjava设置为启动项,运行 如果没有问题会生成cocosjava.dll
 
-#### libcocosjava.so
+#### 编译Android下的libcocosjava.so
 配置好NDK环境后，进入到cocoseditor\cocos-java\proj.android 运行build_native会生成android下的so库，如果没有问题会产生libs\armeabi\libcocosjava.so文件
