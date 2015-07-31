@@ -36,7 +36,7 @@ public:
     this->onContactPostSolve =CC_CALLBACK_2(JavaPhysicsContactListener::handleContactPostSolve, this);
  }
  void regContactSeperate(){
-    this->onContactSeperate= CC_CALLBACK_1(JavaPhysicsContactListener::handleContactSeperate, this);
+    //this->onContactSeperate= CC_CALLBACK_1(JavaPhysicsContactListener::handleContactSeperate, this);
  }
 
  bool handleContactBegin(PhysicsContact& contact);

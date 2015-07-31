@@ -33,7 +33,9 @@ void JavaStorageClass::setItem( const std::string& key, const std::string& value
 
 /** gets an item from the LS */
 std::string JavaStorageClass::getItem( const std::string& key ){
-   return localStorageGetItem(key);
+	std::string value;
+	 localStorageGetItem(key,&value);
+	return value;
 }
 
 /** removes an item from the LS */

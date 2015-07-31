@@ -23,6 +23,7 @@
 #include "network/jsb_websocket.h"
 #include "network/jsb_socketio.h"
 #include "cocosbuilder/js_bindings_ccbreader.h"
+#include "jsb_cocos2dx_cocoseditor_auto.hpp"
 
 #include "FunctionFactory.h"
 #include "Cocos2dFunction.h"
@@ -36,6 +37,18 @@
 #include "platform/android/CCJavascriptJavaBridge.h"
 #elif (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_MAC)
 #include "platform/ios/JavaScriptObjCBridge.h"
+#endif
+
+//#include "js_Effect3D_bindings.h"
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#include "jsb_cocos2dx_experimental_webView_auto.hpp"
+#include "experimental/jsb_cocos2dx_experimental_webView_manual.h"
+#endif
+
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_IOS || CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+#include "jsb_cocos2dx_experimental_video_auto.hpp"
+#include "experimental/jsb_cocos2dx_experimental_video_manual.h"
 #endif
 
 USING_NS_CC;
@@ -87,7 +100,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     ScriptingCore* sc = ScriptingCore::getInstance();
     sc->addRegisterCallback(register_all_cocos2dx);
     sc->addRegisterCallback(register_all_cocos2dx_extension);
-    sc->addRegisterCallback(register_cocos2dx_js_extensions);
+    sc->addRegisterCallback(register_cocos2dx_js_core);
     sc->addRegisterCallback(register_all_cocos2dx_extension_manual);
     sc->addRegisterCallback(jsb_register_chipmunk);
     sc->addRegisterCallback(JSB_register_opengl);

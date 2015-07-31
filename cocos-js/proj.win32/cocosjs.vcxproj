@@ -212,7 +212,7 @@ copy "$(ProjectDir)..\..\project.json" "$(OutDir)\cocosjs-res"</Command>
     <ProjectReference Include="..\..\..\cocos\2d\libcocos2d.vcxproj">
       <Project>{98a51ba8-fc3a-415b-ac8f-8c7bd464e93e}</Project>
     </ProjectReference>
-    <ProjectReference Include="..\..\..\cocos\scripting\js-bindings\proj.win32\libJSBinding.vcxproj">
+    <ProjectReference Include="..\..\..\cocos\scripting\js-bindings\proj.win32\libjscocos2d.vcxproj">
       <Project>{39379840-825a-45a0-b363-c09ffef864bd}</Project>
     </ProjectReference>
   </ItemGroup>
