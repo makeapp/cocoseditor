@@ -14,9 +14,9 @@ CocosEditor工具
 
 
 
-cocos2d-x-3.7.zip 解压到当前的cocos2d-x-3.7目录下
+#### cocos2d-x-3.7.zip 解压到当前的cocos2d-x-3.7目录下
 
-修改 CCScriptSupport.h 文件
+#### 修改 CCScriptSupport.h 文件
  enum ScriptEventType
 {
     kNodeEvent = 0,
@@ -34,9 +34,7 @@ cocos2d-x-3.7.zip 解压到当前的cocos2d-x-3.7目录下
 };
 
 
-CCEvent.h
-#include <string.h>
-#include <string>
+#### 修改CCEvent.h
 
 void setSourceId(std::string  id){
 		this->sourceId = id;
@@ -48,13 +46,13 @@ void setSourceId(std::string  id){
 	
 	 std::string  sourceId;
 	 
-CCEventKeyboard.h
+#### CCEventKeyboard.h
 
 	 KeyCode getKeyCode(){
 		 return _keyCode;
 	 }	 
 
-javaactivity-android.cpp
+#### javaactivity-android.cpp
   /*JNIEXPORT jint JNI_OnLoad(JavaVM *vm, void *reserved)
 {
     JniHelper::setJavaVM(vm);
@@ -65,9 +63,9 @@ javaactivity-android.cpp
 }*/
   
   
-cd cocos2d-x-3.7 git clone https://github.com/makeapp/cocoseditor.git
+#### cd cocos2d-x-3.7 git clone https://github.com/makeapp/cocoseditor.git
 
-用VS打开cocos2d-x-3.7\build\cocos2d-win32.sln项目，把 cocoseditor\cocos-java\proj.win32\cocosjava.vcxproj 加到 VS项目中
+#### 用VS打开cocos2d-x-3.7\build\cocos2d-win32.sln项目，把 cocoseditor\cocos-java\proj.win32\cocosjava.vcxproj 加到 VS项目中
 把cocosjava设置为启动项,运行 如果没有问题会生成cocosjava.dll
 
-配置好NDK环境后，进入到cocoseditor\cocos-java\proj.android 运行build_native会生成android下的so库，如果没有问题会产生libs\armeabi\libcocosjava.so文件
+#### 配置好NDK环境后，进入到cocoseditor\cocos-java\proj.android 运行build_native会生成android下的so库，如果没有问题会产生libs\armeabi\libcocosjava.so文件
